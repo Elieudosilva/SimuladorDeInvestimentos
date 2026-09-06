@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        buttonAbrir = findViewById(R.id.button_abrir)
+        buttonAbrir = findViewById(R.id.btnComecarSimulacao)
         buttonAbrir.setOnClickListener {
 
             val intent = Intent(
